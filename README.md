@@ -26,9 +26,15 @@ My curiosity for data-driven problem-solving drives me to explore **AI, NLP, and
 </p>
 
 📊 **Data Science & Visualization**
-<p>
-  <img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib,seaborn,powerbi&theme=dark" />
+
+<p align="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="90" height="40" alt="Pandas"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" width="90" height="40" alt="NumPy"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width="50" height="40" alt="Matplotlib"/>
+  <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width="100" height="40" alt="Seaborn"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/1024px-New_Power_BI_Logo.svg.png" width="50" height="40" alt="PowerBI"/>
 </p>
+
 
 🧩 **Machine Learning & AI**
 - Regression, Decision Trees, Random Forest
@@ -54,12 +60,15 @@ My curiosity for data-driven problem-solving drives me to explore **AI, NLP, and
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=bahramzada&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=bahramzada&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=bahramzada&show_icons=true&theme=tokyonight" width="90%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bahramzada&theme=react-dark&hide_border=true&area=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bahramzada&theme=tokyonight" width="90%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bahramzada&theme=react-dark&hide_border=true&area=true" width="95%"/>
 </p>
 
 ---
