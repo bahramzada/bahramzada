@@ -22,7 +22,7 @@ My curiosity for data-driven problem-solving drives me to explore **AI, NLP, and
 
 💻 **Programming & Tools**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,postgresql,sqlite,git,github,vscode,linux&theme=dark" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=python,pytorch,tensorflow,sklearn,postgresql,sqlite,git,github,vscode,linux,n8n&theme=dark" />
 </p>
 
 📊 **Data Science & Visualization**
@@ -54,6 +54,7 @@ My curiosity for data-driven problem-solving drives me to explore **AI, NLP, and
 | [**Ramiz Rovshen GPT-2 Poetry**](https://github.com/bahramzada/ramizrovshen-gpt2-poetry) | Fine-tuned GPT-2 model generating poetry in the style of Azerbaijani poet Ramiz Rovshen. | GPT-2, NLP |
 | [**Baku Apartment Price Prediction**](https://github.com/bahramzada/Bina.az-RealEstate-Analysis) | Machine Learning model to predict real estate prices in Baku. | Pandas, Scikit-Learn |
 | [**Airline Passenger Satisfaction**](https://github.com/bahramzada/Airline_Passenger_Satisfaction) | Deep Neural Network achieving 96% accuracy in predicting passenger satisfaction. | TensorFlow, Pandas |
+| [**My N8N Workflows**](https://github.com/bahramzada/N8N-Projects) | This repository contains reusable n8n workflows (JSON files) built for automation, data collection, and integration tasks. | N8N |
 
 ---
 
