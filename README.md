@@ -61,14 +61,6 @@ My curiosity for data-driven problem-solving drives me to explore **AI, NLP, and
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bahramzada&show_icons=true&theme=tokyonight" width="60%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bahramzada&theme=tokyonight" width="60%"/>
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bahramzada&theme=react-dark&hide_border=true&area=true" width="60%"/>
 </p>
 
@@ -77,6 +69,8 @@ My curiosity for data-driven problem-solving drives me to explore **AI, NLP, and
 
 ### 🏅 Certifications
 - [IBM – Python for Data Science, AI & Development](https://coursera.org/verify/TSISD94RXV2M)
+- [DeepLearning.AI - AI For Everyone](https://coursera.org/verify/ASR3ZM9B14TV)
+- [NVIDIA: Fundamentals of Machine Learning](https://coursera.org/verify/TJRMVJRJDQKO)
 
 ---
 
