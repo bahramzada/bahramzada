@@ -13,7 +13,7 @@
   <img src="https://komarev.com/ghpvc/?username=bahramzada&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
   <a href="https://linkedin.com/in/bahramzada"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white" /></a>
   <a href="https://www.kaggle.com/raullte"><img src="https://img.shields.io/badge/Kaggle-raullte-20BEFF?logo=kaggle&logoColor=white" /></a>
-  <a href="mailto:raulbahramzada@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white" /></a>
+  <a href="mailto:me@bahramzada.az"><img src="https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
