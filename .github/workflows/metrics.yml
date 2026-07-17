@@ -1,0 +1,75 @@
+# ============================================================================
+#  GitHub Metrics — statik SVG generatoru
+#  Fayl yeri (profil reponda):  .github/workflows/metrics.yml
+#  Çıxış faylları:              github-metrics.svg  +  github-metrics-calendar.svg
+#  Bu fayllar repoya commit olunur, README onları birbaşa repodan göstərir.
+# ============================================================================
+
+name: GitHub Metrics
+
+on:
+  # Hər gün 04:00 UTC (~08:00 Bakı) avtomatik yenilənir
+  schedule:
+    - cron: "0 4 * * *"
+  # Actions səhifəsindən əl ilə də işə salmaq üçün
+  workflow_dispatch:
+  # main-ə hər push-dan sonra da yenilənsin
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # 1) Əsas panel: başlıq, aktivlik, commit vərdişləri, dillər
+  # ---------------------------------------------------------------------------
+  main-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics.svg
+          user: bahramzada
+          template: classic
+
+          # --- Görünüş ---
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Baku
+          config_display: large
+          config_animations: yes
+
+          # --- Commit / push vərdişləri (charts + faktlar) ---
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_charts: yes
+          plugin_habits_facts: yes
+          plugin_habits_days: yes
+
+          # --- İstifadə olunan dillər (dərin analiz) ---
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+
+  # ---------------------------------------------------------------------------
+  # 2) İllik commit təqvimi (isometric heatmap) — push aktivliyini göstərir
+  # ---------------------------------------------------------------------------
+  calendar-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics-calendar.svg
+          user: bahramzada
+          template: classic
+          base: ""
+          config_timezone: Asia/Baku
+
+          # 3D illik commit təqvimi (bütün il)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
