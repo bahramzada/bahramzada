@@ -38,10 +38,13 @@ I build and ship end-to-end intelligent systems: from speech-to-text pipelines a
 
 **Languages**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=python,typescript,javascript,swift,cpp,bash&theme=dark" alt="Languages" />
+<p>
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=python,typescript,javascript,swift,cpp,bash&theme=dark" alt="Languages" />
+</p>
 
 **AI / ML & Data**
 
+<p>
 <img src="https://go-skill-icons.vercel.app/api/icons?i=pytorch,tensorflow,sklearn,opencv,huggingface&theme=dark" alt="AI and ML" />
 <br />
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Transformers" />
@@ -51,10 +54,13 @@ I build and ship end-to-end intelligent systems: from speech-to-text pipelines a
 <img src="https://img.shields.io/badge/OpenRouter-6E56CF?style=flat-square" alt="OpenRouter" />
 <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+</p>
 
 **Backend, Frontend & Infra**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi,nodejs,react,nextjs,vite,tailwindcss,postgresql,supabase,docker,git,github,linux,n8n&theme=dark" alt="Backend, frontend and infra" />
+<p>
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi,nodejs,react,nextjs,vite,tailwindcss,postgresql,supabase,docker,git,github,linux,n8n&theme=dark" alt="Backend, frontend and infra" />
+</p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
