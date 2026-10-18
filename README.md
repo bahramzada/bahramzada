@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=bahramzada&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fbahramzada&label=Profile%20views&countColor=%230e75b6&style=flat" alt="profile views" />
   <a href="https://linkedin.com/in/bahramzada"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white" /></a>
   <a href="https://www.kaggle.com/raullte"><img src="https://img.shields.io/badge/Kaggle-raullte-20BEFF?logo=kaggle&logoColor=white" /></a>
   <a href="mailto:me@bahramzada.az"><img src="https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white" /></a>
@@ -148,7 +148,7 @@ pgvector, background jobs, Docker deployments, and clean, testable code.
   <a href="https://github.com/bahramzada?tab=followers">
     <img src="https://img.shields.io/github/followers/bahramzada?style=for-the-badge&logo=github&label=Followers&color=36BCF7&labelColor=0D1117" alt="Followers" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=bahramzada&style=for-the-badge&color=36BCF7&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fbahramzada&label=PROFILE%20VIEWS&countColor=%2336BCF7&labelColor=%230D1117&style=for-the-badge" alt="Profile views" />
   <a href="https://github.com/bahramzada?tab=repositories">
     <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/bahramzada&query=public_repos&style=for-the-badge&logo=github&label=Public%20Repos&color=36BCF7&labelColor=0D1117" alt="Public repos" />
   </a>
