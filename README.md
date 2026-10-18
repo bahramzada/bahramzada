@@ -135,36 +135,44 @@ Apps I'm building right now. All are open source and **in development**.
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## 🧠 What I Work On
+## 🧠 What I Do
+
+At **Kontakt**, I design and ship AI systems that run in production, from raw audio and documents to dashboards people use every day. *Details are generalized to respect confidentiality.*
 
 <table>
   <tr>
     <td valign="top" width="50%">
 
-**🤖 LLMs & Generative AI**
-- Retrieval-augmented generation, FAISS and pgvector
-- Structured (JSON-schema) outputs, model routing, cost accounting
-- Fine-tuning (GPT-2), multi-provider inference (OpenRouter / Gemini)
+**🎧 Speech & Conversation Analytics**
+- Call-center audio to text in Azerbaijani, Russian and English, with speaker separation and timestamp alignment
+- LLM-based quality scoring against configurable rubrics, with human review and calibration
+- Support for chat and social channels in the same evaluation flow
 
-**🕹️ Agentic AI**
-- Supervisor-worker orchestration
-- Human-in-the-loop planning, tool-call logging
-- Background job pipelines with live streaming
+**🤖 RAG & AI Assistants**
+- Multi-agent retrieval-augmented assistants for internal knowledge and for customers
+- Grounded answers that cite their sources and admit when context is missing
+- Natural-language product search over a catalog API, embeddable as a chat widget
+
+**🗄️ Natural-Language Analytics**
+- Plain-language questions turned into safe, read-only SQL with an intent router
+- Tables and charts for non-technical leadership, with fuzzy name resolution
 
     </td>
     <td valign="top" width="50%">
 
-**👁️ Computer Vision**
-- Object detection and tracking (YOLOv8, OpenCV)
-- Privacy-preserving anonymization pipelines
+**🏗️ Platform Engineering**
+- React / Next.js dashboards on FastAPI and Node.js services
+- Role-based access, audit trails, background jobs and cost tracking per run
+- Cloud storage and databases, automated tests and CI for every change
 
-**💬 NLP & Speech**
-- BERT sentiment, NER, semantic similarity
-- Speech-to-text and speaker diarization (WhisperX)
-- Azerbaijani-language NLP
+**🛡️ AI Safety & Evaluation**
+- Tooling to test chatbots against jailbreaks, prompt injection and prompt leakage
+- Repeatable evaluation workflows for LLM output quality
 
-**📊 Classic ML**
-- Regression, random forest, gradient boosting, deep neural networks
+**🔌 Automation & Integrations**
+- Connecting messaging and chat platforms, internal data and reporting tools
+- Bots, scheduled pipelines and workflow automation (n8n)
+- Careful handling of sensitive data: encryption, private storage, least privilege
 
     </td>
   </tr>
