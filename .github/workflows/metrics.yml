@@ -23,7 +23,7 @@ permissions:
 
 jobs:
   # ---------------------------------------------------------------------------
-  # 1) Əsas panel: başlıq, aktivlik, commit vərdişləri, dillər
+  # 1) Əsas panel: başlıq, aktivlik, icma, repolar
   # ---------------------------------------------------------------------------
   main-metrics:
     runs-on: ubuntu-latest
@@ -40,20 +40,6 @@ jobs:
           config_timezone: Asia/Baku
           config_display: large
           config_animations: yes
-
-          # --- Commit / push vərdişləri (charts + faktlar) ---
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-          plugin_habits_days: yes
-
-          # --- İstifadə olunan dillər (dərin analiz) ---
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
 
   # ---------------------------------------------------------------------------
   # 2) İllik commit təqvimi (isometric heatmap) — push aktivliyini göstərir

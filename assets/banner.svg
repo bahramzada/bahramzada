@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Raul Bahramzada, AI Engineer and Data Scientist">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1820"/>
+      <stop offset="0.55" stop-color="#14303b"/>
+      <stop offset="1" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#36BCF7"/>
+      <stop offset="1" stop-color="#8B7CFF"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#36BCF7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#36BCF7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <style>
+    .name { font: 700 56px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffffff; letter-spacing: -1px; }
+    .tag  { font: 600 15px 'SF Mono', 'Fira Code', Consolas, monospace; fill: #36BCF7; letter-spacing: 3px; }
+    .sub  { font: 500 22px 'SF Mono', 'Fira Code', Consolas, monospace; fill: #cfe8f3; opacity: 0;
+            animation: cycle 12s infinite both; }
+    .l2 { animation-delay: 3s; } .l3 { animation-delay: 6s; } .l4 { animation-delay: 9s; }
+    .meta { font: 500 14px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8fb3c4; }
+    .drift { animation: drift 14s ease-in-out infinite alternate; }
+    .flow  { stroke-dasharray: 5 9; animation: flow 3s linear infinite; }
+    .node  { animation: pulse 3.2s ease-in-out infinite; }
+    .n2 { animation-delay: .6s; } .n3 { animation-delay: 1.2s; } .n4 { animation-delay: 1.8s; } .n5 { animation-delay: 2.4s; }
+    @keyframes cycle {
+      0%   { opacity: 0; transform: translateY(8px); }
+      4%   { opacity: 1; transform: translateY(0); }
+      22%  { opacity: 1; transform: translateY(0); }
+      26%  { opacity: 0; transform: translateY(-6px); }
+      100% { opacity: 0; }
+    }
+    @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(-60px, 24px); } }
+    @keyframes flow  { to { stroke-dashoffset: -28; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .sub, .drift, .flow, .node { animation: none; }
+      .sub { opacity: 0; } .l1 { opacity: 1; } .node { opacity: 1; }
+    }
+  </style>
+
+  <rect width="1200" height="280" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="16" fill="url(#grid)"/>
+  <circle class="drift" cx="1000" cy="110" r="280" fill="url(#glow)"/>
+
+  <!-- network motif -->
+  <g stroke="#36BCF7" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+    <path class="flow" d="M820 70 L930 120 L1040 60 L1120 150 L1010 210 L900 190 L930 120"/>
+    <path class="flow" d="M1040 60 L1010 210 M820 70 L900 190 M1120 150 L930 120"/>
+  </g>
+  <g fill="url(#accent)">
+    <circle class="node n1" cx="820" cy="70" r="6"/>
+    <circle class="node n2" cx="930" cy="120" r="8"/>
+    <circle class="node n3" cx="1040" cy="60" r="6"/>
+    <circle class="node n4" cx="1120" cy="150" r="7"/>
+    <circle class="node n5" cx="1010" cy="210" r="6"/>
+    <circle class="node n1" cx="900" cy="190" r="5"/>
+  </g>
+
+  <text class="tag" x="64" y="88">AI ENGINEER · DATA SCIENTIST</text>
+  <text class="name" x="62" y="152">Raul Bahramzada</text>
+  <rect x="64" y="170" width="72" height="4" rx="2" fill="url(#accent)"/>
+
+  <g transform="translate(64 214)">
+    <text class="sub l1" y="0">&gt; AI Engineer @ Kontakt (ABC-Telecom)</text>
+    <text class="sub l2" y="0">&gt; Building production LLM &amp; RAG systems</text>
+    <text class="sub l3" y="0">&gt; Computer Vision · NLP · Speech-to-Text</text>
+    <text class="sub l4" y="0">&gt; Agentic AI &amp; workflow automation</text>
+  </g>
+  <text class="meta" x="64" y="254">Baku, Azerbaijan</text>
+</svg>
