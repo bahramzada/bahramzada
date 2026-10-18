@@ -175,11 +175,11 @@ Apps I'm building right now. All are open source and **in development**.
 ## 📊 Activity
 
 <p align="center">
-  <img width="92%" src="./github-metrics.svg?v=2" alt="GitHub activity metrics" />
+  <img width="92%" src="./github-stats.svg" alt="GitHub activity metrics" />
 </p>
 
 <p align="center">
-  <img width="60%" src="./github-metrics-calendar.svg?v=2" alt="Yearly commit calendar" />
+  <img width="60%" src="./github-calendar.svg" alt="Yearly commit calendar" />
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
