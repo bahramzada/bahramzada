@@ -6,7 +6,7 @@
   <a href="https://www.bahramzada.az"><img src="https://img.shields.io/badge/Website-bahramzada.az-36BCF7?style=for-the-badge&logo=safari&logoColor=white&labelColor=0D1117" alt="Website" /></a>
   <a href="https://linkedin.com/in/bahramzada"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>
   <a href="https://www.kaggle.com/raullte"><img src="https://img.shields.io/badge/Kaggle-raullte-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0D1117" alt="Kaggle" /></a>
-  <a href="mailto:raulbahramzada@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+  <a href="mailto:me@bahramzada.az"><img src="https://img.shields.io/badge/Email-me%40bahramzada.az-36BCF7?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Email" /></a>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
@@ -214,5 +214,5 @@ At **Kontakt**, I design and ship AI systems that run in production, from raw au
   <a href="https://www.bahramzada.az">bahramzada.az</a> ·
   <a href="https://linkedin.com/in/bahramzada">LinkedIn</a> ·
   <a href="https://www.kaggle.com/raullte">Kaggle</a> ·
-  <a href="mailto:raulbahramzada@gmail.com">Email</a>
+  <a href="mailto:me@bahramzada.az">Email</a>
 </p>
